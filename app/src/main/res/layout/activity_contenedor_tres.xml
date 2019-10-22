@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isfggmail.juan.interaccion.ContenedorTres">
+
+    <TextView
+        android:id="@+id/lbl_act_tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estas en la Actividad 3"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <EditText
+        android:id="@+id/insertar_text_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese texto a enviar"
+        android:layout_marginTop="65dp"
+        />
+
+    <TextView
+        android:id="@+id/mostrar_text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btn_act_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar Actividad 1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:onClick="regresarActividadUno"
+        />
+
+    <Button
+        android:id="@+id/btn_regresar_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Regresar Actividad 2"
+        android:onClick="regresarActividadDos"
+        />
+
+</RelativeLayout>
+

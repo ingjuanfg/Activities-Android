@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isfggmail.juan.interaccion.ContenedorDos">
+
+    <TextView
+        android:id="@+id/lbl_act_dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estas en la Actividad 2"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"/>
+
+    <EditText
+        android:id="@+id/insertar_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese texto a enviar"
+        android:layout_marginTop="65dp"
+        />
+
+    <TextView
+        android:id="@+id/mostrar_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btn_regresar_uno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar Act 1"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="cursive"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:onClick="regresarUno"/>
+
+    <Button
+        android:id="@+id/ir_act_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="cursive"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:onClick="abrirTres"
+        android:text="Abrir Actividad 3"
+        android:textSize="22dp"/>
+
+
+</RelativeLayout>
+
+
